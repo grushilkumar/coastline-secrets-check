@@ -1,0 +1,8 @@
+# Settlement database settings. The password is never here: it is read from DB_PASSWORD at start-up.
+database:
+  host_env: DB_HOST
+  port_env: DB_PORT
+  user_env: DB_USER
+  password_env: DB_PASSWORD
+  name: settlement
+  pool_size: 5
